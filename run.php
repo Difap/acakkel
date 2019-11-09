@@ -1,17 +1,17 @@
 <?php
 function garis($jum) {
-	for ($i=0; $i<= $jum; $i++) {
+	for ($i=1; $i<= $jum; $i++) {
 		echo "=";
 		}
 }
 echo '####################################';
 echo "\r\n";
-echo '\r# Copyright : @systkha - Abdul Khafid#';
+echo '\r# Copyright : @Difa Rofi Alqudsi#';
 echo "\r\n";
 echo '####################################';
 echo "\r\n";
 echo '####################################';
-echo " \n\t[x] PILIH DATA KELAS [x]\n\t 1. SI NON REGULER"; // ini cuma tampilan
+echo " \n\t[x] PILIH DATA KELAS [x]\n\t 1. 12 Bahasa"; // ini cuma tampilan
 echo "\n [?] Masukkan Nomor Kelas : "; // ini tampilan juga
 $pilih = trim(fgets(STDIN)); // ini juga dihapus pilihan kelas juga gpp
 echo '####################################';
@@ -32,7 +32,7 @@ if(3 % $jumlah == 1 ) { // 33 ganti juga
 garis(30);
 echo "\ntotal kelompok = $tot\n";
 
-$data = array("nama mahasiswa 1", "nama mahasiswa 2", "nama mahasiswa 3"); // sesuaikan dengan array kalian ( nama mahasiwa2 dikelas)
+$data = array("Adhya Siti Zahfa", "Clarissa Diantha Azzahra", "Difa Rofi Alqudsi", "Dzacky Agustian Anhar", "Eldon Ayenda", Galuh Ratna Putri ); // sesuaikan dengan array kalian ( nama mahasiwa2 dikelas)
 		
 for ($i = 0; $i<$tot; $i++){
 	garis(30);
